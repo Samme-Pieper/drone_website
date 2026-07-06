@@ -37,7 +37,7 @@ async function main() {
     toggleBox(1);
     let imList = '';
     for (let i = 2; i < 10; i++) {
-        let inp = `<img src='gallerij/im${i}.jpg' class='gall-img'>`;
+        let inp = `<img src='gallerij/im${i}.JPG' class='gall-img'>`;
         imList += inp;
     }
     document.querySelector('div#gallerij').innerHTML = imList;
