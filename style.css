@@ -17,7 +17,7 @@ video#box-vid {
     position: relative;
     margin-top: 100vh;
     min-height: 200vh;
-    z-index: 2;
+    z-index: 3;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -115,4 +115,20 @@ video#vb-vid {
     width: 75%;
     border-radius: 10px;
     box-shadow: 0 0 20px;
+}
+
+h1#site-title {
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    place-self: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 10px;
 }
