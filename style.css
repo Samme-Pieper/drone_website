@@ -3,7 +3,7 @@ body {
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
 }
-video {
+video#box-vid {
     position: fixed;
     top: 0;
     left: 0;
@@ -106,4 +106,8 @@ div.news>img {
     place-self: center;
     box-shadow: 0 0 20px;
     border-radius: 10px;
+}
+
+video#vb-vid {
+    place-self: center;
 }
