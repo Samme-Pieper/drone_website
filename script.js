@@ -27,9 +27,9 @@ function toggleBox(useBox) {
 }
 
 async function main() {
+    allBox("close");
     const response = await fetch("data.json");
     const data = await response.json();
-    allBox("close");
     for (let i = 1; i < 6; i++) {
         let btn = document.querySelector(`nav#home-nav>button.nav-btn#btn${i}`);
         btn.addEventListener("click", () => { toggleBox(i) });
@@ -55,5 +55,4 @@ async function main() {
         window.location.href = 'mailto:sammepieper2009@outlook.com';
     });
 }
-
 main();
