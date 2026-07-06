@@ -109,5 +109,9 @@ div.news>img {
 }
 
 video#vb-vid {
+    margin-top: 20px;
     place-self: center;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px;
 }
